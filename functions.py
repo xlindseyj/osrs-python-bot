@@ -6,18 +6,8 @@ import time
 from PIL import Image
 import os
 
-global hwnd
-global iflag
-global icoord
-iflag = False
-global newTime_break
-newTime_break = False
-global timer
-global timer_break
-global ibreak
-
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/Users/xlindseyj/Library/Python/3.8/bin'
 
 
 def invent_crop():
